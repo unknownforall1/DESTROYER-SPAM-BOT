@@ -1,14 +1,14 @@
 
 {
-  "name": "INDIAN OP SPAM USERBOT",
-  "description": "A Powerful Telegram Spam Userbot. Based and codes from Catuserbot",
-  "logo": "https://telegra.ph/file/d1169eb61fda56de23182.jpg",
+  "name": "DESTROYER-BOT",
+  "description": "",
+  "logo": "https://telegra.ph/file/06ab8f009e82432a1a85a.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/unknownforall1/YukkiXdeploy",
+  "repository": "https://github.com/unknownforall1/DESTROYER-BOT",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
