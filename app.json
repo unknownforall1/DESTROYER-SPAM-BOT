@@ -1,0 +1,79 @@
+
+{
+  "name": "INDIAN OP SPAM USERBOT",
+  "description": "A Powerful Telegram Spam Userbot. Based and codes from Catuserbot",
+  "logo": "https://telegra.ph/file/d1169eb61fda56de23182.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/unknownforall1/YukkiXdeploy",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "APP_ID": {
+      "description": "PUT YOUR APP ID FOR FAST SPAM",
+      "value": "2786688"
+    } ,
+    "API_HASH": {
+      "description": "PUT YOUR API HASH FOR FAST SPAM",
+      "value": "b1e2e04c202a818e783f42467c52b4bb"
+    },
+    "STRING_SESSION": {
+      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Sudo Users IDs",
+      "value": "1764532830 "
+    },
+    "SUDO_COMMAND_HAND_LER": {
+      "description": "Sudo Users Command Handler",
+      "value": "*"
+    },
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
+      "value": "a980d926-3938-4aba-8e53-70d8491586e8",
+      "required": false
+    },
+    "TG_BOT_USERNAME": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+      "value": "@INDIAN_OPPBOT"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "value": "1732066442:AAF5nR9BIhjWxUVGcvgjSQuvcRWXxkxb-ok"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "YOUR app name ",
+      "value": "indianopspambot",
+      "required": false
+    },
+    "TZ": {
+      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kolkata",
+      "required" : false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
